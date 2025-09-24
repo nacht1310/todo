@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-profile',
   imports: [],
-  templateUrl: './profile.html',
-  styleUrl: './profile.scss'
+  templateUrl: './profile.component.html',
+  styleUrl: './profile.scss',
 })
-export class Profile {
-
-}
+export class Profile {}
