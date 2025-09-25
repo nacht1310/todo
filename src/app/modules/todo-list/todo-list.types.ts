@@ -1,8 +1,15 @@
+import { TASK_STATUS } from '../../common/constant/constant';
+
 export interface TodoItem {
   id: string;
-  title: string;
+  name: string;
   description?: string;
-  isCompleted: boolean;
-  createdAt: Date;
-  updatedAt?: Date;
+  status: TASK_STATUS;
+  createdAt: number;
+  updatedAt?: number;
+}
+export interface CreateTodoItemDTO {
+  name: string;
+  description?: string;
+  status: TASK_STATUS;
 }

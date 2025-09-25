@@ -3,7 +3,12 @@
     Welcome to Todo List Management System - Toli Masy
   </div>
 
-  <button nz-button nzType="primary" class="rounded-full w-12 h-12 bottom-[5%] right-[5%] fixed">
+  <button
+    nz-button
+    nzType="primary"
+    class="rounded-full w-12 h-12 bottom-[5%] right-[5%] fixed"
+    (click)="handleAddTask()"
+  >
     <nz-icon nzType="plus" nzTheme="outline" />
   </button>
 </div>
