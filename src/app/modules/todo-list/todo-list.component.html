@@ -11,7 +11,7 @@
       [nzExtra]="extraTemplate"
       [nzActions]="[editButton, deleteButton]"
     >
-      {{ task.description }}
+      <div class="whitespace-pre-wrap break-all">{{ task.description }}</div>
     </nz-card>
 
     <ng-template #extraTemplate>
